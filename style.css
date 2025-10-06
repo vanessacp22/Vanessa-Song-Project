@@ -1,1 +1,131 @@
-<
+
+body{
+    text-align: center;
+    background-color: #758794;
+    font-size: 20px;
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+   
+    .record-1 {
+        width: 400px;
+        height: 400px;
+        position: relative;
+        top: -280px;
+        left: -50px;
+        
+    }
+      .record-2 {
+        width: 400px;
+        height: 400px;
+        position: relative;
+        top: -280px;
+        left: 50px;
+        
+    }
+   
+ 
+   
+  img {
+        width: 500px;
+        height: 500px;
+    }
+
+.stage { position: relative; }              
+
+
+.poster {
+  position: relative;                      
+  z-index: 2;
+ 
+}
+
+
+.amp {
+  position: absolute;                     
+  left: 50%;
+  transform: translate(-50%, 75px);       
+  z-index: 1;    
+  width: 6000px;
+  height: 500px;                         
+  
+  width: 100%;
+ 
+}
+#playBtn {
+  
+  background-color: #bebfc2;
+  color: #19191a;
+  font-family: "Didact Gothic", sans-serif;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 500px;
+  transition: 0.3s;
+  content: "#9654";
+}
+
+/* Hover effect */
+#playBtn:hover {
+  background-color: #cc0000;
+  transform: scale(1.05);
+}
+
+    .classic {
+   text-align: center;
+  padding-top: -10spx;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  font-family: "Didact Gothic", sans-serif;
+  color: #242121;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  line-height: 10px ;
+  
+}
+
+h1.classic {
+  text-align: center;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  
+ 
+
+  
+}
+hr{
+    color: #d9d3d2;
+    background-color: #d9d3d2;
+    border-radius: 15px;
+    height: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+
+}
+.credits{
+  text-align:left ;
+  padding-top: 15px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 55px;
+  color: #2e2a2a;
+}
+
