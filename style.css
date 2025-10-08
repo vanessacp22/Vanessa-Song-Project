@@ -75,7 +75,7 @@ img.poster {
 #playBtn {
 
   background-color: #bebfc2;
-  border-color: #758794 color: #19191a;
+  border-color: #758794 color, #19191a;
   font-family: "Didact Gothic", sans-serif;
   border: none;
   border-radius: 8px;
